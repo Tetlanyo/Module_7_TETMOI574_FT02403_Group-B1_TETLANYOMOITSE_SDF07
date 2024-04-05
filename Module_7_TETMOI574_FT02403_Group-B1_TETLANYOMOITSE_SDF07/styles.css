@@ -1,0 +1,58 @@
+/* Base Styles */
+
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+}
+
+img {
+    display:block;
+    size: 50%;
+}
+header{
+    text-align: left;
+}
+.button{
+    text-align: left;
+}
+.profile-stats {
+    font-size: medium;
+    text-align: center;
+    margin: 10px;
+
+}
+.profile-bio {
+
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 800px;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px 20px 10px;
+}
+.gallery img {
+    width: 200px;
+    height: 300px;
+    max-width: 350px;
+    background-size:auto;
+    float: left;
+    object-fit: cover;
+}
